@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FAF8F4" />
+  <title>Contact — de Vriendschap Maastricht</title>
+  <meta name="description" content="Get in touch with de Vriendschap in Maastricht. Call, send a WhatsApp, or visit during opening hours." />
+  <link rel="alternate" hreflang="nl" href="../contact.html" />
+  <link rel="alternate" hreflang="en" href="contact.html" />
+  <link rel="icon" type="image/png" href="../images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none;" aria-hidden="true">
+    <defs>
+      <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15.5 14"/>
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/>
+      </symbol>
+      <symbol id="i-arrow-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="19" x2="12" y2="5"/><polyline points="6 11 12 5 18 11"/>
+      </symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.3-4.5A9 9 0 1 1 21 12z"/>
+        <path d="M8.5 9.5c.5 3 2.5 5 5.5 5.5l1.3-1.3 2.2 1c-.4 1.2-1.6 2-3 2-3.4 0-7.2-3.8-7.2-7.2 0-1.4.8-2.6 2-3l1 2.2-1.3 1.3z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="navbar__inner">
+      <a href="index.html" aria-label="de Vriendschap — Home">
+        <img src="../images/logo.png" alt="de Vriendschap" class="navbar__logo" />
+      </a>
+
+      <ul class="navbar__nav" role="list">
+        <li><a href="index.html#story"         class="navbar__link">Our story</a></li>
+        <li><a href="index.html#activities"    class="navbar__link">Activities</a></li>
+        <li><a href="index.html#entrepreneurs" class="navbar__link">For entrepreneurs</a></li>
+        <li><a href="route.html"               class="navbar__link">Route</a></li>
+        <li><a href="contact.html"             class="navbar__link">Contact</a></li>
+      </ul>
+
+      <div class="navbar__actions">
+        <a href="../contact.html" class="navbar__lang" title="Schakel naar Nederlands">NL</a>
+        <a href="contact.html" class="btn btn-primary">Contact</a>
+      </div>
+
+      <button class="navbar__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <nav class="navbar__mobile" aria-label="Mobile navigation">
+    <a href="index.html#story"         class="navbar__mobile-link">Our story</a>
+    <a href="index.html#activities"    class="navbar__mobile-link">Activities</a>
+    <a href="index.html#entrepreneurs" class="navbar__mobile-link">For entrepreneurs</a>
+    <a href="route.html"               class="navbar__mobile-link">Route</a>
+    <a href="contact.html"             class="navbar__mobile-link">Contact</a>
+    <div class="navbar__mobile-actions">
+      <a href="contact.html" class="btn btn-primary navbar__mobile-book">Contact</a>
+      <a href="../contact.html" class="navbar__lang navbar__mobile-lang">NL</a>
+    </div>
+  </nav>
+
+  <main class="page-main">
+    <section class="page-section contact">
+      <div class="container">
+        <header class="contact-page__intro reveal">
+          <span class="section__label">Contact</span>
+          <h1 class="section__title">Get <em>in touch</em></h1>
+          <p class="section__subtitle">Have a question or would you like to make a reservation? Feel free to send us a message.</p>
+        </header>
+
+        <div class="contact-page__content reveal">
+          <div class="contact__info">
+            <ul class="contact__list">
+              <li class="contact__item">
+                <span class="contact__icon" aria-hidden="true"><span class="icon"><svg><use href="#i-phone"/></svg></span></span>
+                <div>
+                  <span class="contact__label">Phone</span>
+                  <a href="tel:+31685306871" class="contact__value">+31 6 85 30 68 71</a>
+                </div>
+              </li>
+              <li class="contact__item">
+                <span class="contact__icon" aria-hidden="true"><span class="icon"><svg><use href="#i-clock"/></svg></span></span>
+                <div>
+                  <span class="contact__label">Opening hours</span>
+                  <span class="contact__value">
+                    Mon–Sat · 10:00–19:00<br/>
+                    <span class="contact__muted">Sunday: Closed</span>
+                  </span>
+                </div>
+              </li>
+            </ul>
+
+            <a href="https://wa.me/31685306871?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20de%20Vriendschap" target="_blank" rel="noopener" class="btn btn--whatsapp btn--lg contact__whatsapp">
+              <span class="icon" aria-hidden="true"><svg><use href="#i-whatsapp"/></svg></span>
+              Message us on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <span class="footer__logo-main">de Vriendschap</span>
+          <span class="footer__logo-sub">Maastricht</span>
+        </div>
+        <p class="footer__tagline">Where craftsmanship and friendship meet.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <h4 class="footer__heading">On the website</h4>
+        <ul>
+          <li><a href="index.html#activities">Activities</a></li>
+          <li><a href="index.html#story">About us</a></li>
+          <li><a href="index.html#entrepreneurs">For entrepreneurs</a></li>
+          <li><a href="route.html">Route</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__connect">
+        <h4 class="footer__heading">Contact</h4>
+        <div class="footer__social">
+          <a href="https://wa.me/31685306871" target="_blank" rel="noopener" class="footer__social-link">
+            <span class="icon" aria-hidden="true"><svg><use href="#i-whatsapp"/></svg></span>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2025 de Vriendschap. All rights reserved.</p>
+        <p><a href="#">Privacy policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Back to top">
+    <span class="icon" aria-hidden="true"><svg><use href="#i-arrow-up"/></svg></span>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
